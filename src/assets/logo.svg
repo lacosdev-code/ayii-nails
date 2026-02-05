@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C9A27E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9E8B7B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text x="10" y="40" font-family="serif" font-size="32" fill="url(#goldGradient)" font-weight="bold">Ayii Nails</text>
+  <path d="M150 10 Q160 30 150 50" stroke="#EBC1C1" stroke-width="2" fill="none"/>
+</svg>
