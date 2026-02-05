@@ -1,15 +1,14 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import Container from '../ui/container';
-import Section from '../ui/section';
+import { getImageUrl } from '../../utils/imagekit';
+
+// ... other imports
 
 const images = [
-    "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&auto=format&fit=crop&q=80&sat=-100",
-    "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?w=800&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=800&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?w=800&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=800&auto=format&fit=crop&q=80&sat=-50"
+    getImageUrl("portfolio-1.jpg", { width: 800, quality: 80 }),
+    getImageUrl("portfolio-2.jpg", { width: 800, quality: 80 }),
+    getImageUrl("portfolio-3.jpg", { width: 800, quality: 80 }),
+    getImageUrl("portfolio-4.jpg", { width: 800, quality: 80 }),
+    getImageUrl("portfolio-5.jpg", { width: 800, quality: 80 }),
+    getImageUrl("portfolio-6.jpg", { width: 800, quality: 80 })
 ];
 
 const containerVariants = {

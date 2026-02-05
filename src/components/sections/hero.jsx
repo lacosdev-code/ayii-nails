@@ -1,20 +1,16 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import Button from '../ui/button';
-import Container from '../ui/container';
+import { getImageUrl } from '../../utils/imagekit';
+
+// ... other imports
 
 const Hero = () => {
     return (
         <div className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
             {/* Background Image with Parallax */}
             <motion.div
-                initial={{ scale: 1.1 }}
-                animate={{ scale: 1 }}
-                transition={{ duration: 1.5, ease: "easeOut" }}
-                className="absolute inset-0 z-0"
+            // ... (keep props)
             >
                 <img
-                    src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=2070&auto=format&fit=crop&q=80"
+                    src="https://ik.imagekit.io/Sgd/LacosDEv/Ayii%20Nails/WhatsApp%20Image%202026-02-05%20at%2015.30.20.jpeg"
                     alt="Elegant Nail Art"
                     className="w-full h-full object-cover"
                 />
