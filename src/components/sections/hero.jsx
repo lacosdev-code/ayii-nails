@@ -10,7 +10,7 @@ const Hero = () => {
             // ... (keep props)
             >
                 <img
-                    src="https://ik.imagekit.io/Sgd/LacosDEv/Ayii%20Nails/WhatsApp%20Image%202026-02-05%20at%2015.30.20.jpeg"
+                    src="https://ik.imagekit.io/Sgd/LacosDEv/Ayii%20Nails/4?updatedAt=1770300924822"
                     alt="Elegant Nail Art"
                     className="w-full h-full object-cover"
                 />
